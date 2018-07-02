@@ -15,9 +15,9 @@ trait SimulationHelper {
   val aeroUrl: String = "localhost"
   val aeroPort: Int = 3000
   val simulationStartRate = 10
-  val simulationEndRate = 10000
-  val constantUsers= 500
-  val simulationRampTime = 60 seconds
+  val simulationEndRate = 5000
+  val constantUsers = 300
+  val simulationRampTime = 2 * 60 seconds
   val simulationTime = 5 * 60 seconds
 
   private val httpConf: HttpProtocolBuilder =

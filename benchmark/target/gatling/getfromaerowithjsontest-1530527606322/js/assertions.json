@@ -1,0 +1,10 @@
+{
+  "simulation": "com.sahil.aerospike.GetFromAeroWithJsonTest",
+  "simulationId": "getfromaerowithjsontest",
+  "start": 1530527606322,
+  "description": "",
+  "scenarios": ["Get dat from aerospike based on bins"],
+  "assertions": [
+
+  ]
+}
