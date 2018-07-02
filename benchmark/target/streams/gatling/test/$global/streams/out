@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Djna.platform.library.path=/usr/lib:/usr/lib, -Djna.loaded=true, -Djna.nosys=true, -Djnidispatch.path=/var/folders/6h/23nq5q2d47z_5b6x6vzps2740000gp/T/jna-109197949/jna8018842044240190233.tmp, -Dgatling.simulationClass=com.sahil.aerospike.GetFromAeroWithJson, -Dhttp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, -DsocksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, -Dftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, -server, -Xmx1G, -XX:+UseG1GC, -XX:MaxGCPauseMillis=30, -XX:G1HeapRegionSize=16m, -XX:InitiatingHeapOccupancyPercent=75, -XX:+ParallelRefProcEnabled, -XX:+PerfDisableSharedMem, -XX:+AggressiveOpts, -XX:+OptimizeStringConcat, -XX:+HeapDumpOnOutOfMemoryError, -Djava.net.preferIPv4Stack=true, -Djava.net.preferIPv6Addresses=false, -Xms1024m, -Xmx2048m)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Djna.platform.library.path=/usr/lib:/usr/lib, -Djna.loaded=true, -Djna.nosys=true, -Djnidispatch.path=/var/folders/6h/23nq5q2d47z_5b6x6vzps2740000gp/T/jna-109197949/jna8018842044240190233.tmp, -Dgatling.simulationClass=com.sahil.aerospike.GetFromAeroWithJson, -Dhttp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, -DsocksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, -Dftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, -server, -Xmx1G, -XX:+UseG1GC, -XX:MaxGCPauseMillis=30, -XX:G1HeapRegionSize=16m, -XX:InitiatingHeapOccupancyPercent=75, -XX:+ParallelRefProcEnabled, -XX:+PerfDisableSharedMem, -XX:+AggressiveOpts, -XX:+OptimizeStringConcat, -XX:+HeapDumpOnOutOfMemoryError, -Djava.net.preferIPv4Stack=true, -Djava.net.preferIPv6Addresses=false, -Xms1024m, -Xmx2048m)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.sahil.aerospike.GetFromAeroWithJsonTest, sbt.ForkMain$SubclassFingerscan@7719cde3, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation GetFromAeroWithJsonTest successful.[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.sahil.aerospike.GetFromAeroWithBinsTest, sbt.ForkMain$SubclassFingerscan@3f579d92, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation GetFromAeroWithBinsTest successful.[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation(s) execution ended.[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.sahil.aerospike.GetFromAeroWithJsonTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.sahil.aerospike.GetFromAeroWithBinsTest[0m

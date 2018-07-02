@@ -1,0 +1,35 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/api_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroOperations$$anonfun$$nestedInanonfun$jsonHandler$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroOperations$$anonfun$$nestedInanonfun$jsonHandler$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/LazyLogger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/LazyLogger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroOperations$$anonfun$$nestedInanonfun$jsonHandler$3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroOperations$$anonfun$$nestedInanonfun$jsonHandler$3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroOperations.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroOperations.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroConstants$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroConstants$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroConstants.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroConstants.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroOperations$$anonfun$$nestedInanonfun$binHandler$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroOperations$$anonfun$$nestedInanonfun$binHandler$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/Entity.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/Entity.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/Entity$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/Entity$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroOperations$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroOperations$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroOperations$$anonfun$$nestedInanonfun$binHandler$3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroOperations$$anonfun$$nestedInanonfun$binHandler$3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroOperations$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroOperations$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/AeroOperations$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/classes/com/sahil/aerospike/AeroOperations$$anonfun$1.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

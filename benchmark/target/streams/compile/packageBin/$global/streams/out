@@ -1,0 +1,21 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/benchmark_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/DataFeeder$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/classes/com/sahil/aerospike/DataFeeder$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/classes/com/sahil/aerospike[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/SimulationHelper$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/classes/com/sahil/aerospike/SimulationHelper$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/GetFromAeroWithBins.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/classes/com/sahil/aerospike/GetFromAeroWithBins.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/GetFromAeroWithJson.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/classes/com/sahil/aerospike/GetFromAeroWithJson.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/DataFeeder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/classes/com/sahil/aerospike/DataFeeder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/classes/com/sahil[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sahil/aerospike/SimulationHelper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/classes/com/sahil/aerospike/SimulationHelper.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

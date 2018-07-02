@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="aerospikebenchmarking-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180629120740"/>
+	<dependencies>
+		<module organisation="io.gatling" name="gatling-sbt">
+			<revision name="2.2.2" status="release" pubdate="20170827180511" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="1638" time="0" location="/Users/sahil/.ivy2/cache/scala_2.12/sbt_1.0/io.gatling/gatling-sbt/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.gatling/gatling-sbt/scala_2.12/sbt_1.0/2.2.2/ivys/ivy.xml"/>
+				<caller organisation="default" name="aerospikebenchmarking-build" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="gatling-sbt" type="jar" ext="jar" status="no" details="" size="50041" time="0" location="/Users/sahil/.ivy2/cache/scala_2.12/sbt_1.0/io.gatling/gatling-sbt/jars/gatling-sbt-2.2.2.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.gatling/gatling-sbt/scala_2.12/sbt_1.0/2.2.2/jars/gatling-sbt.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
