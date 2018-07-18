@@ -19,4 +19,12 @@ object DataFeeder extends LazyLogger {
     }).toIndexedSeq
   }
 
+  def getRandomRecordKeys(): IndexedSeq[Record[String]] = {
+    (1 to 10000).map(no => {
+      Map {
+        "key" -> UUID.randomUUID().toString
+      }
+    }).toIndexedSeq
+  }
+
 }
