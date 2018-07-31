@@ -4586,44 +4586,41 @@
 [debug] == resolving dependencies api#api$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] io.netty#netty-buffer;4.1.19.Final!netty-buffer.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-handler-proxy;4.1.19.Final!netty-handler-proxy.jar(src)
-[debug] 	[NOT REQUIRED] com.aerospike#aerospike-client;4.1.0!aerospike-client.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.4!jackson-datatype-jsr310.jar(src)
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
+[debug] 	[NOT REQUIRED] com.aerospike#aerospike-client;4.1.0!aerospike-client.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-handler;4.1.19.Final!netty-handler.jar(src)
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] 	[NOT REQUIRED] org.luaj#luaj-jse;3.0!luaj-jse.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.1!jackson-annotations.jar(src)
-[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
-[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] 	[NOT REQUIRED] io.vertx#vertx-auth-common;3.5.1!vertx-auth-common.jar(src)
 [debug] 	[NOT REQUIRED] org.mindrot#jbcrypt;0.3m!jbcrypt.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
-[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.4!jackson-core.jar(src)
-[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
-[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.4!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-buffer;4.1.19.Final!netty-buffer.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-codec;4.1.19.Final!netty-codec.jar(src)
-[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] 	[NOT REQUIRED] org.gnu#gnu-crypto;2.0.1!gnu-crypto.jar(src)
 [debug] 	[NOT REQUIRED] io.vertx#vertx-core;3.5.1!vertx-core.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-resolver-dns;4.1.19.Final!netty-resolver-dns.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-handler;4.1.19.Final!netty-handler.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.1!jackson-annotations.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.12;2.9.1!jackson-module-scala_2.12.jar(src)
 [debug] 	[NOT REQUIRED] io.vertx#vertx-web;3.5.1!vertx-web.jar(src)
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
+[debug] 	[NOT REQUIRED] io.netty#netty-resolver-dns;4.1.19.Final!netty-resolver-dns.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-handler-proxy;4.1.19.Final!netty-handler-proxy.jar(src)
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
+[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
+[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
@@ -4635,237 +4632,46 @@
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (87ms)
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (83ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (95ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] settings loaded (97ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (106ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (107ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (112ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (123ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (94ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (106ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (127ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] settings loaded (125ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] settings loaded (108ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default ivy user dir defined: set to /Users/sahil/.ivy2
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (131ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	main [chain] [shared, public]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] settings loaded (117ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (111ms)
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] io.netty#netty-resolver;4.1.19.Final!netty-resolver.jar(src)
-[debug] settings loaded (118ms)
-[debug] 	default cache: /Users/sahil/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] settings loaded (121ms)
 [debug] 	default cache: /Users/sahil/.ivy2/cache
 [debug] 	default resolver: default
@@ -4875,43 +4681,40 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.4!jackson-databind.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-codec-http;4.1.19.Final!netty-codec-http.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-codec-socks;4.1.19.Final!netty-codec-socks.jar(src)
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] io.vertx#vertx-bridge-common;3.5.1!vertx-bridge-common.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-common;4.1.19.Final!netty-common.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-codec-dns;4.1.19.Final!netty-codec-dns.jar(src)
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] io.netty#netty-transport;4.1.19.Final!netty-transport.jar(src)
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (164ms)
 [debug] 	default cache: /Users/sahil/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.3!logback-core.jar(src)
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.9.1!jackson-module-paranamer.jar(src)
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (165ms)
+[debug] settings loaded (114ms)
 [debug] 	default cache: /Users/sahil/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -4920,12 +4723,209 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 	[NOT REQUIRED] io.netty#netty-transport;4.1.19.Final!netty-transport.jar(src)
+[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] 	[NOT REQUIRED] io.netty#netty-common;4.1.19.Final!netty-common.jar(src)
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (62ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] 	shared [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (168ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] settings loaded (139ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (82ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (150ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (84ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (183ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (186ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (193ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (220ms)
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /Users/sahil/.ivy2/cache
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] settings loaded (242ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (226ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (308ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (311ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/sahil/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (287ms)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] io.netty#netty-codec-socks;4.1.19.Final!netty-codec-socks.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-codec-dns;4.1.19.Final!netty-codec-dns.jar(src)
+[debug] settings loaded (441ms)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	default cache: /Users/sahil/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.4!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.3!logback-classic.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-codec-http;4.1.19.Final!netty-codec-http.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-resolver;4.1.19.Final!netty-resolver.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.9.1!jackson-module-paranamer.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-codec-http2;4.1.19.Final!netty-codec-http2.jar(src)
-[debug] :: resolution report :: resolve 2461ms :: artifacts dl 361ms
+[debug] 	[NOT REQUIRED] io.vertx#vertx-bridge-common;3.5.1!vertx-bridge-common.jar(src)
+[debug] :: resolution report :: resolve 1991ms :: artifacts dl 597ms
 [debug] 	report for api#api$sources;0.1.0-SNAPSHOT compile produced in /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/resolution-cache/reports/api-api$sources-compile.xml
 [debug] 	report for api#api$sources;0.1.0-SNAPSHOT runtime produced in /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/resolution-cache/reports/api-api$sources-runtime.xml
 [debug] 	report for api#api$sources;0.1.0-SNAPSHOT test produced in /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/resolution-cache/reports/api-api$sources-test.xml
@@ -4937,4 +4937,4 @@
 [debug] 	report for api#api$sources;0.1.0-SNAPSHOT plugin produced in /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/resolution-cache/reports/api-api$sources-plugin.xml
 [debug] 	report for api#api$sources;0.1.0-SNAPSHOT pom produced in /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/resolution-cache/reports/api-api$sources-pom.xml
 [debug] 	report for api#api$sources;0.1.0-SNAPSHOT scala-tool produced in /Users/sahil/work/AerospikeBenchmarking/api/target/scala-2.12/resolution-cache/reports/api-api$sources-scala-tool.xml
-[debug] 	resolve done (2461ms resolve - 361ms download)
+[debug] 	resolve done (1991ms resolve - 597ms download)

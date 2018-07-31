@@ -1,6 +1,4 @@
 
-
-
 lazy val root = project
   .in(file("."))
   .settings(
@@ -24,10 +22,12 @@ lazy val benchmark = project
       "com.aerospike" % "aerospike-client" % "4.1.0",
       "com.fasterxml.jackson.datatype" % "jackson-datatype-jsr310" % "2.9.4",
       "org.slf4j" % "slf4j-api" % "1.7.25",
-      "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.2.2"
+      "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.2.2",
+      "com.typesafe.play" %% "play-json" % "2.6.3"
+
     ),
     javaOptions in Gatling := overrideDefaultJavaOptions("-Xms1024m", "-Xmx2048m"),
-      exportJars := true
+    exportJars := true
   ).dependsOn(api)
 
 lazy val api = project.in(file("api"))

@@ -1,0 +1,10 @@
+{
+  "simulation": "com.sahil.aerospike.SimpleTestTest",
+  "simulationId": "simpletesttest",
+  "start": 1532866925596,
+  "description": "",
+  "scenarios": ["test vertex server"],
+  "assertions": [
+
+  ]
+}

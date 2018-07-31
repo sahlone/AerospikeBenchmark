@@ -76,3 +76,34 @@ gatling:test simulations:GetFromAeroWithJson
 gatling:testOnly simulations:GetFromAeroWithJson
 benchmark/gatling:testOnly simulations:GetFromAeroWithJson
 benchmark/gatling:test simulations:GetFromAeroWithJson
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/6h/23nq5q2d47z_5b6x6vzps2740000gp/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/sahil/Library/Application Support/IntelliJIdea2018.1/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+gatling:testOnly com.sahil.aerospike.SimpleTestTest
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/6h/23nq5q2d47z_5b6x6vzps2740000gp/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/sahil/Library/Application Support/IntelliJIdea2018.1/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/6h/23nq5q2d47z_5b6x6vzps2740000gp/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/sahil/Library/Application Support/IntelliJIdea2018.1/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/6h/23nq5q2d47z_5b6x6vzps2740000gp/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/sahil/Library/Application Support/IntelliJIdea2018.1/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+gatlin:testOnly com.sahil.aerospike.GetOfferTest
+gatling:testOnly com.sahil.aerospike.GetOfferTest
+gatlin:testOnly com.sahil.aerospike.GetOfferTest
+gatling:testOnly com.sahil.aerospike.GetOfferTest
+gatling:testOnly com.sahil.aerospike.TrackerClickRedirect
+gatling:testOnly com.sahil.aerospike.TrackerClickRedirectTest
+gatling:testOnly com.sahil.aerospike.GetOfferTest
+gatling:testOnly com.sahil.aerospike.TrackerClickRedirectTest
+gatling:testOnly com.sahil.aerospike.GetOfferTest
+gatling:testOnly com.sahil.aerospike.TrackerClickRedirectTest
+gatling:testOnly com.sahil.aerospike.GetOfferTest
+gatling:testOnly com.sahil.aerospike.SimpleTestTest
+gatling:testOnly com.sahil.aerospike.GetOfferTest
+gatling:testOnly com.sahil.aerospike.SimpleTestTest
+aao na
+lets go
+gatling:testOnly com.sahil.aerospike.SimpleTestTest
+gatling:testOnly com.sahil.aerospike.GetOfferTest
+gatling:testOnly com.sahil.aerospike.SimpleTestTest
+gatling:testOnly com.sahil.aerospike.GetOfferTest
+gatling:testOnly com.sahil.aerospike.SimpleTestTest
+gatling:testOnly com.sahil.aerospike.GetOfferTest

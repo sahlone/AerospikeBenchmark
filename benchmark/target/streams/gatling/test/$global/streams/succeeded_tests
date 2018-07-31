@@ -1,4 +1,6 @@
 #Successful Tests
-#Mon Jul 02 14:09:04 CEST 2018
+#Mon Jul 30 23:46:19 CEST 2018
 com.sahil.aerospike.GetFromAeroWithBinsTest=1530533344370
+com.sahil.aerospike.SimpleTestTest=1532957763267
+com.sahil.aerospike.GetOfferTest=1532987179328
 com.sahil.aerospike.GetFromAeroWithJsonTest=1530533023627

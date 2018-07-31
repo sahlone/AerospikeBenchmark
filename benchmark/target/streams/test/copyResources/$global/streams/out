@@ -1,2 +1,3 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/sahil/work/AerospikeBenchmarking/benchmark/src/test/resources/logback.xml,/Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/test-classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/sahil/work/AerospikeBenchmarking/benchmark/src/test/resources/gatling.conf,/Users/sahil/work/AerospikeBenchmarking/benchmark/target/scala-2.12/test-classes/gatling.conf)[0m

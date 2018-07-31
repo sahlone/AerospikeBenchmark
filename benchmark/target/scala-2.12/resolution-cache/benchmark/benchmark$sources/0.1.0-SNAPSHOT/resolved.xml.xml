@@ -4,7 +4,7 @@
 		module="benchmark$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180702001753"
+		publication="20180723125234"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -110,6 +110,10 @@
 			<artifact name="scopt_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
+		<dependency org="com.typesafe.play" name="play-json_2.12" rev="2.6.3" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;gatling->default,compile,runtime,default(compile),master;it->default,compile,runtime,default(compile),master;gatling-it->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master;it-internal->default,compile,runtime,default(compile),master">
+			<artifact name="play-json_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
 		<dependency org="io.netty" name="netty-codec-dns" rev="4.1.19.Final" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="netty-codec-dns" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
@@ -154,6 +158,10 @@
 			<artifact name="bcpkix-jdk15on" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
+		<dependency org="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" rev="2.8.9" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="jackson-datatype-jdk8" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
 		<dependency org="org.asynchttpclient" name="netty-codec-dns" rev="2.0.39" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="netty-codec-dns" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
@@ -178,6 +186,10 @@
 			<artifact name="logback-classic" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
+		<dependency org="joda-time" name="joda-time" rev="2.9.9" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="joda-time" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
 		<dependency org="io.gatling" name="gatling-commons" rev="2.3.1" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="gatling-commons" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
@@ -198,7 +210,7 @@
 			<artifact name="gatling-recorder" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" rev="2.9.4" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;gatling->default,compile,runtime,default(compile),master;it->default,compile,runtime,default(compile),master;gatling-it->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master;it-internal->default,compile,runtime,default(compile),master">
+		<dependency org="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" rev="2.9.4" transitive="false" conf="compile->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);runtime->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);test->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);gatling->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);it->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);gatling-it->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);compile-internal->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);runtime-internal->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);test-internal->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*);it-internal->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*)">
 			<artifact name="jackson-datatype-jsr310" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
@@ -208,6 +220,10 @@
 		</dependency>
 		<dependency org="net.sf.saxon" name="Saxon-HE" rev="9.8.0-4" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="Saxon-HE" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="com.typesafe.play" name="play-functional_2.12" rev="2.6.3" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="play-functional_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
 		<dependency org="org.mindrot" name="jbcrypt" rev="0.3m" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
@@ -232,6 +248,10 @@
 		</dependency>
 		<dependency org="com.tdunning" name="t-digest" rev="3.1" transitive="false" conf="test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="t-digest" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.typelevel" name="macro-compat_2.12" rev="1.1.1" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="macro-compat_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
 		<dependency org="org.scala-lang.modules" name="scala-parser-combinators_2.12" rev="1.0.6" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;gatling->compile,runtime(*),master(compile),runtime,compile(*),master;it->compile,runtime(*),master(compile),runtime,compile(*),master;gatling-it->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master;it-internal->compile,runtime(*),master(compile),runtime,compile(*),master">

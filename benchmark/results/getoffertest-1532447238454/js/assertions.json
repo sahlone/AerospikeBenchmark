@@ -1,0 +1,10 @@
+{
+  "simulation": "com.sahil.aerospike.GetOfferTest",
+  "simulationId": "getoffertest",
+  "start": 1532447238454,
+  "description": "",
+  "scenarios": ["Get offer"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,3 @@
+package com.sahil.aerospike
+
+class TrackerClickRedirectTest extends TrackerClickRedirect

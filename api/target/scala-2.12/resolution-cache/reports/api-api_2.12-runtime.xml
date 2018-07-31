@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180701232522"/>
+		date="20180718154404"/>
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-reflect">
 			<revision name="2.12.6" status="release" pubdate="20180427103633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
@@ -22,50 +22,50 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12">
-			<revision name="2.9.1" status="release" pubdate="20170911105702" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+			<revision name="2.9.1" status="release" pubdate="20170911105702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4242" time="142" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/ivy-2.9.1.xml" searched="true" original-local-location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/ivy-2.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.1/jackson-module-scala_2.12-2.9.1.pom"/>
+				<metadata-artifact status="no" details="" size="4217" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.1/jackson-module-scala_2.12-2.9.1.pom"/>
 				<caller organisation="api" name="api_2.12" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-module-scala_2.12" type="bundle" ext="jar" status="successful" details="" size="345135" time="318" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/bundles/jackson-module-scala_2.12-2.9.1.jar">
+					<artifact name="jackson-module-scala_2.12" type="bundle" ext="jar" status="no" details="" size="345135" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/bundles/jackson-module-scala_2.12-2.9.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.1/jackson-module-scala_2.12-2.9.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer">
-			<revision name="2.9.1" status="release" pubdate="20170908033035" resolver="public" artresolver="public" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+			<revision name="2.9.1" status="release" pubdate="20170908033035" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3851" time="136" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/ivy-2.9.1.xml" searched="true" original-local-location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/ivy-2.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.1/jackson-module-paranamer-2.9.1.pom"/>
+				<metadata-artifact status="no" details="" size="22362" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.1/jackson-module-paranamer-2.9.1.pom"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.9.1"/>
 				<artifacts>
-					<artifact name="jackson-module-paranamer" type="bundle" ext="jar" status="successful" details="" size="42867" time="548" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.9.1.jar">
+					<artifact name="jackson-module-paranamer" type="bundle" ext="jar" status="no" details="" size="42867" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.9.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.1/jackson-module-paranamer-2.9.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.thoughtworks.paranamer" name="paranamer">
-			<revision name="2.8" status="release" pubdate="20150826132928" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+			<revision name="2.8" status="release" pubdate="20150826132928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
 				<license name="BSD" url="LICENSE.txt"/>
-				<metadata-artifact status="successful" details="" size="5274" time="114" location="/Users/sahil/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.8.xml" searched="true" original-local-location="/Users/sahil/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<metadata-artifact status="no" details="" size="4254" time="0" location="/Users/sahil/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="2.9.1"/>
 				<artifacts>
-					<artifact name="paranamer" type="bundle" ext="jar" status="successful" details="" size="34654" time="124" location="/Users/sahil/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar">
+					<artifact name="paranamer" type="bundle" ext="jar" status="no" details="" size="34654" time="0" location="/Users/sahil/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
-			<revision name="2.9.1" status="release" pubdate="20170908024704" resolver="public" artresolver="public" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+			<revision name="2.9.1" status="release" pubdate="20170908024704" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2590" time="131" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.1.xml" searched="true" original-local-location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.1/jackson-annotations-2.9.1.pom"/>
+				<metadata-artifact status="no" details="" size="7187" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.1/jackson-annotations-2.9.1.pom"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.4"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.9.1"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.4"/>
 				<artifacts>
-					<artifact name="jackson-annotations" type="bundle" ext="jar" status="successful" details="" size="66790" time="574" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.1.jar">
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="66790" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.1/jackson-annotations-2.9.1.jar"/>
 					</artifact>
 				</artifacts>

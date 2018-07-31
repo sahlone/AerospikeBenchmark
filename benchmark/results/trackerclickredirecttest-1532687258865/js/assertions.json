@@ -1,0 +1,10 @@
+{
+  "simulation": "com.sahil.aerospike.TrackerClickRedirectTest",
+  "simulationId": "trackerclickredirecttest",
+  "start": 1532687258865,
+  "description": "",
+  "scenarios": ["Get offer"],
+  "assertions": [
+
+  ]
+}

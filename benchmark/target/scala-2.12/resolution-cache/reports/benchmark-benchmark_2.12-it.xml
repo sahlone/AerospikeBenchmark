@@ -7,8 +7,68 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="it"
 		confs="compile, runtime, test, provided, optional, gatling, it, gatling-it, compile-internal, runtime-internal, test-internal, it-internal, plugin, pom, scala-tool"
-		date="20180702001452"/>
+		date="20180723125138"/>
 	<dependencies>
+		<module organisation="com.typesafe.play" name="play-json_2.12">
+			<revision name="2.6.3" status="release" pubdate="20170809235506" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="65">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4849" time="0" location="/Users/sahil/.ivy2/cache/com.typesafe.play/play-json_2.12/ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.3/play-json_2.12-2.6.3.pom"/>
+				<caller organisation="benchmark" name="benchmark_2.12" conf="compile, runtime, it" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-json_2.12" type="jar" ext="jar" status="no" details="" size="630859" time="0" location="/Users/sahil/.ivy2/cache/com.typesafe.play/play-json_2.12/jars/play-json_2.12-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.3/play-json_2.12-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
+			<revision name="2.8.9" status="release" pubdate="20170612070811" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="20932" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jdk8" type="bundle" ext="jar" status="no" details="" size="33877" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.8.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.9" status="release" pubdate="20170323143313" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6647" time="0" location="/Users/sahil/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="634048" time="0" location="/Users/sahil/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102094258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/sahil/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="no" details="" size="3180" time="0" location="/Users/sahil/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.12">
+			<revision name="2.6.3" status="release" pubdate="20170809235804" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="/Users/sahil/.ivy2/cache/com.typesafe.play/play-functional_2.12/ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.3/play-functional_2.12-2.6.3.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="play-functional_2.12" type="jar" ext="jar" status="no" details="" size="177951" time="0" location="/Users/sahil/.ivy2/cache/com.typesafe.play/play-functional_2.12/jars/play-functional_2.12-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.3/play-functional_2.12-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="io.gatling" name="gatling-http">
 			<revision name="2.3.1" status="release" pubdate="20180306155811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
@@ -463,6 +523,7 @@
 				<metadata-artifact status="no" details="" size="2637" time="0" location="/Users/sahil/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
 				<caller organisation="com.dongxiguo" name="fastring_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.3.1"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.9.1"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.6.3"/>
 				<caller organisation="io.gatling" name="gatling-commons" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.3.1"/>
 				<caller organisation="com.softwaremill.quicklens" name="quicklens_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.4.8"/>
 				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.7.2"/>
@@ -474,7 +535,7 @@
 			</revision>
 		</module>
 		<module organisation="api" name="api_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180702001451" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180723125137" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="benchmark" name="benchmark_2.12" conf="compile, runtime, it" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
@@ -530,6 +591,7 @@
 				<metadata-artifact status="no" details="" size="7187" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.1/jackson-annotations-2.9.1.pom"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.4"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.9.1"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.3"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.4"/>
 				<caller organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-csv" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
 				<artifacts>
@@ -545,6 +607,12 @@
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.4"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.4"/>
 				<caller organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-csv" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.8.9" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.9.1"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.3"/>
 				<artifacts>
 				</artifacts>
 			</revision>
@@ -856,15 +924,22 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
-			<revision name="2.9.4" status="release" pubdate="20180124053944" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+			<revision name="2.9.4" status="release" pubdate="20180124053944" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="7">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="28733" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.9.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.pom"/>
 				<caller organisation="benchmark" name="benchmark_2.12" conf="compile, runtime, it" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="0.1.0-SNAPSHOT"/>
 				<caller organisation="api" name="api_2.12" conf="compile" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.3"/>
 				<artifacts>
 					<artifact name="jackson-datatype-jsr310" type="bundle" ext="jar" status="no" details="" size="98261" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.9.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.8.9" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.9.4"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.3"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
@@ -876,12 +951,21 @@
 				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="3.5.1"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.9.1"/>
 				<caller organisation="io.gatling" name="gatling-core" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.3.1"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.3"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.9.1"/>
 				<caller organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-csv" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
 				<artifacts>
 					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1345154" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.8.9" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.9.4"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.3"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 			<revision name="2.9.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
@@ -912,12 +996,21 @@
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="default, compile, runtime, master" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.9.4"/>
 				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="3.5.1"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="default, compile, runtime, master" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="2.9.1"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.3"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.9.4"/>
 				<caller organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-csv" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.0"/>
 				<artifacts>
 					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="320923" time="0" location="/Users/sahil/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.8.9" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.9.4"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.3"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 			<revision name="2.9.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
@@ -999,6 +1092,7 @@
 				<caller organisation="benchmark" name="benchmark_2.12" conf="compile, runtime, it" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1.0-SNAPSHOT"/>
 				<caller organisation="api" name="api_2.12" conf="compile" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1.0-SNAPSHOT"/>
 				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.8.0"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.6.3"/>
 				<caller organisation="io.gatling" name="gatling-commons" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.3.1"/>
 				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.7.2"/>
 				<caller organisation="io.suzaku" name="boopickle_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.2.6"/>
@@ -1006,10 +1100,12 @@
 				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.0.6"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.12.6"/>
 				<caller organisation="io.gatling" name="jsonpath_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.6.9"/>
+				<caller organisation="com.typesafe.play" name="play-functional_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.6.3"/>
 				<caller organisation="io.gatling" name="gatling-core" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.3.1"/>
 				<caller organisation="com.github.scopt" name="scopt_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="3.7.0"/>
 				<caller organisation="com.softwaremill.quicklens" name="quicklens_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.4.8"/>
 				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.0.6"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.1.1"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5267302" time="0" location="/Users/sahil/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar">
 						<origin-location is-local="false" location="UNKNOWN"/>

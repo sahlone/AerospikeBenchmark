@@ -13,7 +13,7 @@ class GetFromAeroWithJson extends Simulation with SimulationHelper with LazyLogg
     )
 
 
-  setUpScenario {
+  setUpScenario("") {
     scenario("Get dat from aerospike based on bins")
       .feed(circularFeederBuilder(DataFeeder.getAerospikeRecordKeys()))
       .exec(getRecordWithJson)

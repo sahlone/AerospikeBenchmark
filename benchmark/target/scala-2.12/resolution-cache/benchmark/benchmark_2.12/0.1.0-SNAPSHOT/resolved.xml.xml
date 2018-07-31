@@ -4,7 +4,7 @@
 		module="benchmark_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180702001452"
+		publication="20180723125138"
 	>
 		<description>
 		benchmark
@@ -46,5 +46,6 @@
 		<dependency org="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" rev="2.9.4" conf="compile->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.25" conf="compile->default(compile)"/>
 		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" rev="2.2.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-json_2.12" rev="2.6.3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

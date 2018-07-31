@@ -4,7 +4,7 @@
 		module="aerospikebenchmarking_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180701205425"
+		publication="20180718154404"
 	>
 		<description>
 		AerospikeBenchmarking

@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180629120740"/>
+		date="20180718154348"/>
 	<dependencies>
 		<module organisation="io.gatling" name="gatling-sbt">
 			<revision name="2.2.2" status="release" pubdate="20170827180511" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
